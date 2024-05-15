@@ -1,0 +1,61 @@
+* {background-color:skyblue;}
+
+nav {background-color: deeppink;
+    padding: 1em;
+    font-size: 2em;
+    margin: 1em;
+    border-radius: 2em;}
+
+#a1 {background-color: gray;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 2em;
+    margin: 0 2em 0 11em;}
+
+#a2 {background-color: gray;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 2em;
+    margin-right: 2em;}
+
+#a3 {background-color: gray;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 2em;
+    margin-right: 2em;}
+
+.container {display: grid;
+            grid-template-columns: repeat(3, 30%);
+            text-align: center;}
+
+.homem_aranha {border: 1px solid black;
+                margin-right: 3em;
+                margin-bottom: 2em;
+                padding: 1em;}
+
+.batman {border: 1px solid black;
+        margin-right: 3em;
+        margin-bottom: 2em;
+        padding: 1em;}
+
+.bermuda {border: 1px solid black;
+        margin-right: 3em;
+        margin-bottom: 2em;
+        padding: 1em;}
+
+.calca {border: 1px solid black;
+        margin-right: 3em;
+        padding: 1em;}
+
+.hulk {border: 1px solid black;
+        margin-right: 3em;
+        padding: 1em;}
+            
+.meia {border: 1px solid black;
+        margin-right: 3em;
+        padding: 1em;}
+
+#meia {width: 200px;}
