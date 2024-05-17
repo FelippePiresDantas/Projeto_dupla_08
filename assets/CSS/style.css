@@ -74,4 +74,6 @@ nav {display: grid;
                 border: 2px solid white;
                 color: aqua;}
 
-#logo {width: 300px;}
+#logo {width: 300px;
+        display: block;
+        margin: auto;}

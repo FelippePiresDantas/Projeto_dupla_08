@@ -28,6 +28,10 @@ nav {display: grid;
     text-decoration: none;
     border-radius: 2em;}
 
+#logo {width: 300px;
+        display: block;
+        margin: auto;}
+
 form {max-width: 500px;
     margin: auto;
     padding: 20px;
