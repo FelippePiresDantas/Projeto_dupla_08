@@ -4,25 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulário Reino dos Baixinhos</title>
+    <link rel="stylesheet" href="./assets/CSS/formulario.css">
 </head>
 
 <body>
     <header>
-        <img src="./assets/IMG/Logo moda infantil rosa.png" alt="Logo do Reino dos Baixinhos">
         <nav>
-            <a href="./index.html">Início</a> |
-            <a href="./index.html#produtos">Produtos</a> |
-            <a href="#contato">Contato</a>
+            <a href="#inicio" id="a1">Início</a>
+            <a href="#produtos" id="a2">Produtos</a>
+            <a href="#contato" id="a3">Contato</a>
         </nav>
     </header>
 
-    <p>Para finalizar sua compra vamos precisar de alguns dados para a entrega.</p>
+    <h3>Para finalizar sua compra vamos precisar de alguns dados para a entrega.</h3>
     <form action="./index.html">
         <fieldset>
             <legend>INFORMAÇÕES PESSOAIS</legend><br>
             <fieldset>
                 <label>Nome:</label>
-                <input type="text" placeholder="Digite seu nome..."><br>
+                <input type="text" placeholder="Digite seu nome..." class="input"><br>
 
                 <label>RG:</label>
                 <input type="number" placeholder="Ex:12345678910"><br>
@@ -34,11 +34,11 @@
                 <input type="date"><br>
 
                 <label>E-mail:</label>
-                <input type="email" placeholder="Ex: antonio81@gmail.com">
+                <input type="email" placeholder="Ex: antonio81@gmail.com" class="input">
 
             </fieldset><br>
 
-            <fieldset>
+            <fieldset class="produtos">
                 <legend>PRODUTOS ESCOLHIDOS</legend>
                 <input type="checkbox">
                 <label>Camiseta Homem Aranha</label><br>
@@ -50,13 +50,15 @@
                 <label>Calça Preta</label><br>
                 <input type="checkbox">
                 <label>Boné Hulk</label><br>
+                <input type="checkbox">
+                <label>Meia Branca</label><br>
             </fieldset>
 
             <br>
 
             <fieldset>
                 <label>Tamanho:</label>
-                <input list="TM" type="text" placeholder="Ex: M">
+                <input list="TM" type="text" placeholder="Ex: M" class="input">
                 <datalist id="TM">
                     <option value="3"></option>
                     <option value="4"></option>
@@ -76,19 +78,19 @@
                 <input type="number" placeholder="Ex:06117250"><br>
 
                 <label>Rua:</label>
-                <input type="text" placeholder="Ex: Av. Ataliba Leonel"><br>
+                <input type="text" placeholder="Ex: Av. Ataliba Leonel" class="input"><br>
 
                 <label>Número:</label>
                 <input type="number" placeholder="Número do endereço.."><br>
 
                 <label>Complemento:</label>
-                <input type="text" placeholder="(OPCIONAL)"><br>
+                <input type="text" placeholder="(OPCIONAL)" class="input"><br>
 
                 <label>Cidade:</label>
-                <input type="text" placeholder="Ex: Santana"><br>
+                <input type="text" placeholder="Ex: Santana" class="input"><br>
 
                 <label>Estado:</label>
-                <input list="Estados" type="text" placeholder="Ex: BA">
+                <input list="Estados" type="text" placeholder="Ex: BA" class="input">
                 <datalist id="Estados">
                     <option value="AC"></option>
                     <option value="AL"></option>
@@ -126,7 +128,7 @@
 
             <label>Clique em "ENVIAR" para receber um email com as informações para pagamento.</label>
 
-            <br><br><input type="submit" value="ENVIAR">
+            <br><br><input type="submit" value="ENVIAR" class="button">
         </fieldset>
 
     </form>
@@ -138,46 +140,35 @@
     <form action="./index.html">
         <fieldset>
             <label>Nome:</label>
-            <input type="text" placeholder="Digite seu nome..."><br>
+            <input type="text" placeholder="Digite seu nome..." class="input"><br>
             <label>E-mail</label>
-            <input type="email" placeholder="Ex: antonio81@gmail.com"><br><hr>
+            <input type="email" placeholder="Ex: antonio81@gmail.com" class="input"><br><hr>
             <label>Nos diga o que gostou e não gostou do nosso site para podermos melhorar.</label><br>
             <textarea cols="35" rows="15" placeholder="Digite aqui..."></textarea><br><br>
-            <input type="submit" value="ENVIAR">
+            <input type="submit" value="ENVIAR" class="button">
         </fieldset>
     </form>
 
     <br><br>
 
     <footer>
+        <br><hr><br>
         <section id="contato">
             <h2>Fale Conosco</h2>
             <p>Estamos sempre prontos para ajudar. Entre em contato:</p>
 
             <a target="blank" href="mailto:felippepiresdantas@gmail.com">
-                <img src="./assets/IMG/gmail.png" alt="gmail"></a>
+                <img src="./assets/IMG/gmail-.png" alt="gmail"></a>
 
             <a target="blank" href="tel:+5511958413838">
-                <img src="./assets/IMG/telefone.png" alt="telefone"></a>
+                <img src="./assets/IMG/telefone-.png" alt="telefone"></a>
 
             <a target="blank" href="https://www.instagram.com/corinthians/">
-                <img src="./assets/IMG/simbolo instagram.jpg" alt="instagram"></a>
+                <img src="./assets/IMG/instagram.png" alt="instagram"></a>
 
             <a target="blank" href="https://wa.me/5511958413838">
-                <img src="./assets/IMG/whattsapp.jpg" alt="whattsapp"></a>
+                <img src="./assets/IMG/whattsapp.png" alt="whattsapp"></a>
         </section>
-
-        <br><hr><br>
-
-        <figure>
-            <img src="./assets/IMG/bermuda camuflada.webp" alt="Bermuda Camuflada">
-            <img src="./assets/IMG/bone hulk.webp" alt="Boné Hulk">
-            <img src="./assets/IMG/calca preta.webp" alt="Calça Preta">
-            <img src="./assets/IMG/camisa batman.jpg" alt="Camiseta  Batman">
-            <img src="./assets/IMG/camiseta_homem_aranha.webp" alt="Camiseta Homem Aranha">
-        </figure>
-
-        <br>
 
         <p>&copy; 2024 Reino dos Baixinhos. Todos os direitos reservados.</p>
     </footer>
