@@ -3,40 +3,36 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
     <title>Reino dos Baixinhos - Loja Virtual</title>
 </head>
 
 <body>
     <header>
-        <img src="./assets/IMG/Logo moda infantil rosa.png" alt="Logo do Reino dos Baixinhos">
         <nav>
-            <a href="#inicio">Início</a> |
-            <a href="#produtos">Produtos</a> |
-            <a href="#contato">Contato</a>
+            <a href="#inicio" id="a1">Início</a>
+            <a href="#produtos" id="a2">Produtos</a>
+            <a href="#contato" id="a3">Contato</a>
         </nav>
     </header>
 
     <!-- Conteúdo Principal -->
     <main>
         <section id="inicio">
+            <img src="./assets/IMG/Logo moda infantil rosa.gif" alt="Logo do Reino dos Baixinhos" id="logo">
             <h2>Bem-vindo ao Reino dos Baixinhos!</h2>
             <p>Encontre os melhores produtos para crianças de todas as idades.</p>
         </section>
-
-        <section id="produtos">
-            <h2>Nossos Produtos</h2>
-
-            <div>
+        <h2>Nossos Produtos</h2>
+        <section id="produtos" class="container">
+            
+            <div class="homem_aranha">
                 <h3>Camiseta Homem Aranha </h3>
-                <img src="./assets/IMG/camiseta_homem_aranha.webp"
+                <img src="./assets/IMG/homem_aranha.png"
                     alt="Camiseta Homem Aranha">
-
-                <form action="./formulario.html">
-                    <input type="submit" value="Comprar">
-                </form>
                 
                 <h3>R&dollar; 70,00</h3>
-                <p>MALHA - A camiseta é confeccionada em malha Flame 200gr. Composição de 96% poliéster e de 4%
+                <p>TECIDO - A camiseta é confeccionada em malha Flame 200gr. Composição de 96% poliéster e de 4%
                     elastano. Tecidos são de alta qualidade e muito resistentes.</p>
 
                 <p>ESTAMPA - A estampa é feita em sublimação. Não sai nem trinca na lavagem, possui alta qualidade e
@@ -44,15 +40,15 @@
 
                 <p>CUIDADOS - Você pode lavar a mão ou na máquina sem alvejante. Passe a ferro tomando cuidado com a
                     temperatura na estampa.</p>
+                
+                <form action="./formulario.html">
+                    <input type="submit" value="Comprar" class="botao">
+                </form>
             </div>
 
-            <div>
+            <div class="batman">
                 <h3>Camiseta Batman</h3>
-                <img src="./assets/IMG/camisa batman.jpg" alt="Camiseta Batman">
-                                    
-                <form action="./formulario.html">
-                    <input type="submit" value="Comprar">
-                </form>
+                <img src="./assets/IMG/camisa-batman.png" alt="Camiseta Batman">
                 
                 <h3>R&dollar; 65,00</h3>
                 <p>TECIDO - 50% Algodão 50% Poliéster.</p>
@@ -62,45 +58,39 @@
 
                 <p>CUIDADOS - Você pode lavar a mão ou na máquina sem alvejante. Passe a ferro tomando cuidado com a
                     temperatura na estampa.</p>
+
+                <form action="./formulario.html">
+                    <input type="submit" value="Comprar" class="botao">
+                </form>
             </div>
 
-            <div>
+            <div class="bermuda">
                 <h3>Bermuda Camuflada</h3>
-                <img src="./assets/IMG/bermuda camuflada.webp" alt="Bermuda Camuflada">
-                                    
-                <form action="./formulario.html">
-                    <input type="submit" value="Comprar">
-                </form>
+                <img src="./assets/IMG/bermuda-camuflada.png" alt="Bermuda Camuflada">
                 
                 <h3>R&dollar; 90,00</h3>
                 <p>TECIDO - Sarja.</p>
 
-                <p>CUIDADOS - Você pode lavar a mão ou na máquina sem alvejante. Passe a ferro tomando cuidado com a
-                    temperatura na estampa.</p>
+                <form action="./formulario.html" class="form">
+                    <input type="submit" value="Comprar" class="botao">
+                </form>
             </div>
 
-            <div>
+            <div class="calca">
                 <h3>Calça Preta</h3>
-                <img src="./assets/IMG//calca preta.webp" alt="Calça Preta">
-                                    
-                <form action="./formulario.html">
-                    <input type="submit" value="Comprar">
-                </form>
+                <img src="./assets/IMG//calca-preta.png" alt="Calça Preta">
                 
                 <h3>R&dollar; 150,00</h3>
                 <p>TECIDO - Sarja.</p>
 
-                <p>CUIDADOS - Você pode lavar a mão ou na máquina sem alvejante. Passe a ferro tomando cuidado com a
-                    temperatura na estampa.</p>
+                <form action="./formulario.html">
+                    <input type="submit" value="Comprar" class="botao">
+                </form>
             </div>
 
-            <div>
+            <div class="hulk">
                 <h3>Boné Hulk</h3>
-                <img src="./assets/IMG/bone hulk.webp" alt="Boné Hulk">
-                                    
-                <form action="./formulario.html">
-                    <input type="submit" value="Comprar">
-                </form>
+                <img src="./assets/IMG/bone-hulk.png" alt="Boné Hulk">
                 
                 <h3>R&dollar; 40,00</h3>
                 <p>TECIDO - Tactel.</p>
@@ -110,6 +100,21 @@
 
                 <p>CUIDADOS - Você pode lavar a mão ou na máquina sem alvejante. Passe a ferro tomando cuidado com a
                     temperatura na estampa.</p>
+
+                <form action="./formulario.html">
+                    <input type="submit" value="Comprar" class="botao">
+                </form>
+            </div>
+            <div class="meia">
+                <h3>Meia Branca</h3>
+                <img src="./assets/IMG/meia-branca.png" alt="Meia branca" id="meia">
+                
+                <h3>R&dollar; 10,00</h3>
+                <p>TECIDO - Algodão.</p>
+
+                <form action="./formulario.html">
+                    <input type="submit" value="Comprar" class="botao">
+                </form>
             </div>
         </section>
 
@@ -118,34 +123,23 @@
 
     <!-- Rodapé -->
     <footer>
+        <br><hr><br>
         <section id="contato">
             <h2>Fale Conosco</h2>
             <p>Estamos sempre prontos para ajudar. Entre em contato:</p>
 
             <a target="blank" href="mailto:felippepiresdantas@gmail.com">
-                <img src="./assets/IMG/gmail.png" alt="gmail"></a>
+                <img src="./assets/IMG/gmail-.png" alt="gmail"></a>
 
             <a target="blank" href="tel:+5511958413838">
-                <img src="./assets/IMG/telefone.png" alt="telefone"></a>
+                <img src="./assets/IMG/telefone-.png" alt="telefone"></a>
 
             <a target="blank" href="https://www.instagram.com/corinthians/">
-                <img src="./assets/IMG/simbolo instagram.jpg" alt="instagram"></a>
+                <img src="./assets/IMG/instagram.png" alt="instagram"></a>
 
             <a target="blank" href="https://wa.me/5511958413838">
-                <img src="./assets/IMG/whattsapp.jpg" alt="whattsapp"></a>
+                <img src="./assets/IMG/whattsapp.png" alt="whattsapp"></a>
         </section>
-
-        <br><hr><br>
-
-        <figure>
-            <img src="./assets/IMG/bermuda camuflada.webp" alt="Bermuda Camuflada">
-            <img src="./assets/IMG/bone hulk.webp" alt="Boné Hulk">
-            <img src="./assets/IMG/calca preta.webp" alt="Calça Preta">
-            <img src="./assets/IMG/camisa batman.jpg" alt="Camiseta  Batman">
-            <img src="./assets/IMG/camiseta_homem_aranha.webp" alt="Camiseta Homem Aranha">
-        </figure>
-
-        <br>
 
         <p>&copy; 2024 Reino dos Baixinhos. Todos os direitos reservados.</p>
     </footer>

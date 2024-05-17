@@ -1,0 +1,77 @@
+* {background-color:skyblue;}
+
+nav {display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-items: center;
+    background-color: rgb(253, 57, 165);
+    padding: 1em;
+    font-size: 2em;
+    margin: 1em;
+    border-radius: 2em;
+    text-align: center;}
+
+#a1 {background-color: gray;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+    border-radius: 2em;}
+
+#a2 {background-color: gray;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+    border-radius: 2em;}
+
+#a3 {background-color: gray;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+    border-radius: 2em;}
+
+.container {display: grid;
+            grid-template-columns: repeat(3, 30%);
+            justify-content: center;
+            text-align: center;}
+
+.homem_aranha {border: 3px solid rgb(253, 57, 165);
+                margin-right: 3em;
+                margin-bottom: 2em;
+                padding: 1em;}
+
+.batman {border: 3px solid rgb(253, 57, 165);
+        margin-right: 3em;
+        margin-bottom: 2em;
+        padding: 1em;}
+
+.bermuda {border: 3px solid rgb(253, 57, 165);
+        margin-right: 3em;
+        margin-bottom: 2em;
+        padding: 1em;}
+
+.calca {border: 3px solid rgb(253, 57, 165);
+        margin-right: 3em;
+        padding: 1em;}
+
+.hulk {border: 3px solid rgb(253, 57, 165);
+        margin-right: 3em;
+        padding: 1em;}
+            
+.meia {border: 3px solid rgb(253, 57, 165);
+        margin-right: 3em;
+        padding: 1em;}
+
+#meia {width: 200px;}
+
+.botao {color: blueviolet;
+        background-color: aqua;
+        border: 2px solid white;
+        font-size: 1em;
+        font-weight: 800;
+        padding: 0.5em;
+        border-radius: 2em;}
+
+.botao:hover {background-color: blueviolet;
+                border: 2px solid white;
+                color: aqua;}
+
+#logo {width: 300px;}
